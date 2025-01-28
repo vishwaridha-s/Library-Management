@@ -23,3 +23,13 @@ A **C program** that allows users to manage a small library system, store book d
 -     Lib.c
 -     cJSON.c
 -     cjson.h
+
+## How to Run
+### Step 1: Clone the Repository
+Clone the repository to your local system:
+```bash
+git clone https://github.com/your-username/BookHive.git
+cd BookHive
+
+gcc lib.c cJSON.c -o bookhive
+./Lib.c
