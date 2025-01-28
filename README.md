@@ -1,35 +1,88 @@
-# Library Management System
+# Library Management System in C
 
-A **C program** that allows users to manage a small library system, store book data, and save it in a JSON file for persistence. This project demonstrates the integration of the **cJSON library** for working with JSON data in C.
+A **C-based Library Management System** that allows users to add, manage, and search for books. This project demonstrates a simple console application with functionality for book management, providing an easy-to-use interface.
 
 ---
 
 ## Features
-- **Add Books**: Input book details such as title, author ID, and price.
-- **Display All Books**: View the list of all books in the library.
-- **Search by Author**: Find books by a specific author using their author ID.
-- **Total Books**: Display the total number of books in the library.
-- **JSON Storage**: Save and load book data to/from a JSON file (`library.json`).
+- **Add Books**: Add new books with details such as title, author ID, and price.
+- **Display All Books**: View all books stored in the library.
+- **Search by Author**: Search and display books by a specific author ID.
+- **Total Books**: Display the total number of books currently in the library.
 
 ---
 
 ## Prerequisites
+To run this project, you need:
 - A **C Compiler** (e.g., GCC).
-- **VS Code** or any text editor.
+
 ---
 
 ## Project Structure
--Library Management
--     Lib.c
--     cJSON.c
--     cjson.h
+LibraryManagement/ │ ├── lib.c # Main program file └── library.json # JSON file for storing book data (optional if using JSON persistence)
 
 ## How to Run
-### Step 1: Clone the Repository
-Clone the repository to your local system:
+### Step 1: Compile the Program
+Use GCC to compile the program:
 ```bash
-git clone https://github.com/your-username/BookHive.git
-cd BookHive
+gcc lib.c -o library
 
-gcc lib.c cJSON.c -o bookhive
-./Lib.c
+Step 2: Run the Program
+Execute the compiled program:
+
+bash
+Copy
+Edit
+./library
+
+Usage
+Add Books: Enter book title, author ID, and price.
+View Books:
+Display all books stored in the library.
+Search for books by a specific author using their author ID.
+Save Data:
+If JSON persistence is integrated, book data is saved automatically (e.g., to library.json).
+Load Data:
+If JSON persistence is integrated, data is loaded when the program starts.
+
+
+Example Workflow
+Adding Books
+mathematica
+Copy
+Edit
+1. Add Book
+Enter book title: CProgrammingBasics
+Enter author ID: 101
+Enter price: 299.99
+Book added successfully!
+Displaying All Books
+yaml
+Copy
+Edit
+2. Display All Books
+Book Information:
+Title: CProgrammingBasics
+Author ID: 101
+Price: 299.99
+
+
+Example Workflow
+Adding Books
+mathematica
+Copy
+Edit
+1. Add Book
+Enter book title: CProgrammingBasics
+Enter author ID: 101
+Enter price: 299.99
+Book added successfully!
+Displaying All Books
+yaml
+Copy
+Edit
+2. Display All Books
+Book Information:
+Title: CProgrammingBasics
+Author ID: 101
+Price: 299.99
