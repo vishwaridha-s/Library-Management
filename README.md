@@ -19,22 +19,26 @@ To run this project, you need:
 ---
 
 ## Project Structure
-LibraryManagement/ │ ├── lib.c # Main program file └── library.json # JSON file for storing book data (optional if using JSON persistence)
+LibraryManagement/ │ ├── lib.c # Main program file └── library.json # JSON file for storing book data (optional, if using JSON persistence)
+
+yaml
+Copy
+Edit
+
+---
 
 ## How to Run
+
 ### Step 1: Compile the Program
 Use GCC to compile the program:
 ```bash
 gcc lib.c -o library
-
 Step 2: Run the Program
 Execute the compiled program:
-
 bash
 Copy
 Edit
 ./library
-
 Usage
 Add Books: Enter book title, author ID, and price.
 View Books:
@@ -44,8 +48,6 @@ Save Data:
 If JSON persistence is integrated, book data is saved automatically (e.g., to library.json).
 Load Data:
 If JSON persistence is integrated, data is loaded when the program starts.
-
-
 Example Workflow
 Adding Books
 mathematica
@@ -65,24 +67,21 @@ Book Information:
 Title: CProgrammingBasics
 Author ID: 101
 Price: 299.99
+_
+Contribution
+Contributions are welcome! Feel free to:
 
+Report bugs.
+Suggest new features.
+Open a pull request with your improvements.
+License
+This project is open-source and free to use. Add your preferred license here if needed.
 
-Example Workflow
-Adding Books
-mathematica
+Author
+Developed by Vishwaridha S. 🎉
+
+vbnet
 Copy
 Edit
-1. Add Book
-Enter book title: CProgrammingBasics
-Enter author ID: 101
-Enter price: 299.99
-Book added successfully!
-Displaying All Books
-yaml
-Copy
-Edit
-2. Display All Books
-Book Information:
-Title: CProgrammingBasics
-Author ID: 101
-Price: 299.99
+
+Now you can copy everything at once. Let me know if anything else is needed! 😊
